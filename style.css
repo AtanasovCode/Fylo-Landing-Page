@@ -111,13 +111,17 @@ nav ul li a {
     width: 20vw;
     height: 5vh;
     margin-right: 1vw;
+    padding-left: 10px;
 }
 
 .input-btn {
     text-align: center;
     width: 11vw;
     height: 5vh;
-    background-color: var(--light-gray);
+    color: white;
+    border: none;
+    outline: none;
+    background-color: var(--bright-blue);
 }
 
 
@@ -237,6 +241,12 @@ nav ul li a {
     background-color: var(--bright-blue);
     color: white;
     text-align: center;
+    border: none;
+    outline: none;
+}
+
+#footer-btn:hover {
+
 }
 
 /*==========FOOTER===========*/
@@ -305,8 +315,7 @@ ul li a:hover {
 }
 
 .fa:hover {
-    border: 1px solid rgba(0, 0, 255, 0.953);
-    color: rgb(42, 42, 245);
+    opacity: .7;
     cursor: pointer;
 }
 
@@ -349,6 +358,7 @@ ul li a:hover {
   @media only screen and (max-width: 850px) {
       body {
           overflow-x: hidden;
+          background-image: url("images/bg-curve-mobile.svg");
       }
       .main-logo {
           width: 120px;
