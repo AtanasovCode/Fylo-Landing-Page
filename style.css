@@ -124,6 +124,11 @@ nav ul li a {
     background-color: var(--bright-blue);
 }
 
+.input-btn:hover {
+	cursor: pointer;
+}
+
+
 
 /*============MAIN PART 2=============*/
 
@@ -246,7 +251,7 @@ nav ul li a {
 }
 
 #footer-btn:hover {
-
+	cursor: pointer;
 }
 
 /*==========FOOTER===========*/
